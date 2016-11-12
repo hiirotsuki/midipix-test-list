@@ -1,35 +1,35 @@
-name:						package:
-[							
-addr2line					
-ag							
-ar							binutils
-as							binutils
-awk							gawk
-base64						coreutils
-basename					coreutils
-bash						bash
-bashbug						
-bsdcpio						
-bsdtar						
-bunzip2						bzip2
-bzcat						bzip2
-bzip2						bzip2
-bzip2recover				bzip2
-c++							gcc
-c++filt						
-c2ph						
-cal							
-cat							coreutils
-catman						man_db
-chcon						coreutils
-chgrp						
-chmod						coreutils
-chown						coreutils
-chroot						coreutils
-chrt						
-cksum						
-clear						
-cmp							diffutils
+name:                       package:
+[                           
+addr2line                   
+ag                          
+ar                          binutils
+as                          binutils
+awk                         gawk
+base64                      coreutils
+basename                    coreutils
+bash                        bash
+bashbug                     
+bsdcpio                     
+bsdtar                      
+bunzip2                     bzip2
+bzcat                       bzip2
+bzip2                       bzip2
+bzip2recover                bzip2
+c++                         gcc
+c++filt                     
+c2ph                        
+cal                         
+cat                         coreutils
+catman                      man_db
+chcon                       coreutils
+chgrp                       
+chmod                       coreutils
+chown                       coreutils
+chroot                      coreutils
+chrt                        
+cksum                       
+clear                       
+cmp                         diffutils
 col
 colxrt
 colrm
@@ -41,15 +41,15 @@ cpan
 cpp
 crantab
 csplit
-curl						curl
+curl                        curl
 cut
 cxpm
-dash						dash
+dash                        dash
 date
 dd
 df
-diff						diffutils
-diff3						diffutils
+diff                        diffutils
+diff3                       diffutils
 dir
 dircolors
 dirmngr
@@ -70,17 +70,17 @@ expr
 factor
 false
 fgrep
-file						file
+file                        file
 find
 findmnt
 flock
 fmt
 fold
 free
-funzip						infounzip
-g++							gcc
-gapplication				glib
-gcc							gcc
+funzip                      infounzip
+g++                         gcc
+gapplication                glib
+gcc                         gcc
 gcov
 gdbm_dump
 gdbm_load
@@ -89,37 +89,37 @@ gdbus
 gdbus-codegen
 getopt
 gio-querymodules
-git							git
-git-cvsserver				git
-gitk						git
-git-recieve-pack			git
-git-shell					git
-git-upload-archive			git
-git-upload-pack				git
-glib-compile-resources		glib
-glib-compile-schemas		glib
-glib-genmarshal				glib
-glib-gettextize				glib
-glib-mkenums				glib
-gobject-query				glib
-gpg2						gnupg
-gpg-agent					gnupg
-gpgconf						gnupg
-gpg-connect-agent			gnupg
-gpg-error					gnupg
-gpgparsemail				gnupg
-gpgscm						gnupg
-gpgsm						gnupg
-gpgtar						gnupg
-gpgv2						gnupg
+git                         git
+git-cvsserver               git
+gitk                        git
+git-recieve-pack            git
+git-shell                   git
+git-upload-archive          git
+git-upload-pack             git
+glib-compile-resources      glib
+glib-compile-schemas        glib
+glib-genmarshal             glib
+glib-gettextize             glib
+glib-mkenums                glib
+gobject-query               glib
+gpg2                        gnupg
+gpg-agent                   gnupg
+gpgconf                     gnupg
+gpg-connect-agent           gnupg
+gpg-error                   gnupg
+gpgparsemail                gnupg
+gpgscm                      gnupg
+gpgsm                       gnupg
+gpgtar                      gnupg
+gpgv2                       gnupg
 gprof
 grep
 gresource
 groups
 gsettings
 gtester
-gunzip						gzip
-gzip						gzip
+gunzip                      gzip
+gzip                        gzip
 h2ph
 h2xs
 head
@@ -135,7 +135,7 @@ ionice
 ipcmk
 ipcrm
 ipcs
-irssi						irssi
+irssi                       irssi
 isosize
 john
 join
@@ -155,11 +155,11 @@ logname
 look
 ls
 lslogins
-lua							lua
-lynx						lynx
-lzmadec						xz
-lzmainfo					xz
-make						gmake
+lua                         lua
+lynx                        lynx
+lzmadec                     xz
+lzmainfo                    xz
+make                        gmake
 man
 mandb
 manpath
@@ -178,7 +178,7 @@ mountpoint
 mpicalc
 mv
 nami
-nano						
+nano                        
 nc
 nice
 nl
@@ -189,13 +189,13 @@ objcopy
 objdump
 od
 oldfind
-openssl						libressl
+openssl                     libressl
 pacman
 paste
 patch
 pathchk
 perk
-perl						perl
+perl                        perl
 pg
 pgrep
 pidof
@@ -245,11 +245,11 @@ slibtool
 sort
 spalin
 split
-ssh							openssh
-ssh-add						openssh
-ssh-agent					openssh
-ssh-keygen					openssh
-ssh-keyscan					openssh
+ssh                         openssh
+ssh-add                     openssh
+ssh-agent                   openssh
+ssh-keygen                  openssh
+ssh-keyscan                 openssh
 stat
 stdbuf
 strings
@@ -288,11 +288,11 @@ unexpand
 uniq
 unix2dos
 unlink
-unzip						infounzip
-unzipsfx					infounzip
-urxvt						urxvt
-urxvtc						urxvt
-urxvtd						urxvt
+unzip                       infounzip
+unzipsfx                    infounzip
+urxvt                       urxvt
+urxvtc                      urxvt
+urxvtd                      urxvt
 users
 utmpdump
 uuidgen
@@ -304,7 +304,7 @@ w
 watch
 watchgnupg
 wc
-weechat						weechat
+weechat                     weechat
 whatis
 whereis
 which
@@ -322,9 +322,9 @@ xz
 xzdec
 yes
 zcat
-zip							infozip
-zipcloak					infozip
-zipdetails					infozip
-zipnote						infozip
-zipsplit					infozip
-zsh							zsh
+zip                         infozip
+zipcloak                    infozip
+zipdetails                  infozip
+zipnote                     infozip
+zipsplit                    infozip
+zsh                         zsh
