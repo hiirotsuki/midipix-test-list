@@ -1,6 +1,6 @@
 name:                       package:
 [                           
-addr2line                   
+addr2line                   binutils
 ag                          
 ar                          binutils
 as                          binutils
@@ -8,72 +8,69 @@ awk                         gawk
 base64                      coreutils
 basename                    coreutils
 bash                        bash
-bashbug                     
-bsdcpio                     
-bsdtar                      
+bsdcpio                     libarchive
+bsdtar                      libarchive
 bunzip2                     bzip2
 bzcat                       bzip2
 bzip2                       bzip2
 bzip2recover                bzip2
 c++                         gcc
-c++filt                     
-c2ph                        
-cal                         
+c++filt                     binutils
+cal                         util-linux
 cat                         coreutils
 catman                      man_db
 chcon                       coreutils
-chgrp                       
+chgrp                       coreutils
 chmod                       coreutils
 chown                       coreutils
 chroot                      coreutils
-chrt                        
-cksum                       
-clear                       
+chrt                        util-linux
+cksum                       coreutils
+clear                       ncurses
 cmp                         diffutils
-col
-colxrt
-colrm
-column
-comm
+col                         util-linux
+colcrt                      util-linux
+colrm                       util-linux
+column                      util-linux
+comm                        coreutils
 corelist
-cp
+cp                          coreutils
 cpan
 cpp
-crantab
-csplit
+crontab
+csplit                      coreutils
 curl                        curl
-cut
-cxpm
+cut                         coreutils
+cxpm                        X11(Xpm)
 dash                        dash
-date
-dd
-df
+date                        coreutils
+dd                          coreutils
+df                          coreutils
 diff                        diffutils
 diff3                       diffutils
-dir
-dircolors
+dir                         coreutils
+dircolors                   coreutils
 dirmngr
 dirmngr-client
-dirname
-dlltool
-dllwrap
-dos2unix
-du
+dirname                     coreutils
+dlltool                     binutils
+dllwrap                     binutils
+dos2unix                    dos2unix
+du                          coreutils
 dumpsexp
 echo
 ed
 egrep
-elfedit
-env
-expand
-expr
-factor
-false
-fgrep
+elfedit                     binutils
+env                         coreutils
+expand                      coreutils
+expr                        coreutils
+factor                      coreutils
+false                       coreutils
 file                        file
-find
-findmnt
-flock
+find                        findutils
+findmnt                     util-linux
+flock                       util-linux
 fmt
 fold
 free
@@ -120,15 +117,13 @@ gsettings
 gtester
 gunzip                      gzip
 gzip                        gzip
-h2ph
-h2xs
-head
-hexcurse
-hexdump
+head                        coreutils
+hexcurse                    hexcurse
+hexdump                     util-linux
 hmac256
 hostid
-htop
-id
+htop                        htop
+id                          
 infocmp
 install
 ionice
@@ -140,28 +135,28 @@ isosize
 john
 join
 kbxutil
-kill
-last
+kill                        util-linux
+last                        util-linux
 ld
 less
 lessecho
 lesskey
 lexgrog
 link
-ln
+ln                          coreutils
 locate
 logger
 logname
 look
-ls
+ls                          coreutils
 lslogins
 lua                         lua
 lynx                        lynx
 lzmadec                     xz
 lzmainfo                    xz
 make                        gmake
-man
-mandb
+man                         
+mandb                       man_db
 manpath
 mc
 mcookie
@@ -177,9 +172,9 @@ more
 mountpoint
 mpicalc
 mv
-nami
+namei
 nano                        
-nc
+nc                          netcat
 nice
 nl
 nm
@@ -295,7 +290,7 @@ urxvtc                      urxvt
 urxvtd                      urxvt
 users
 utmpdump
-uuidgen
+uuidgen                     util-linux
 vdir
 vercmp
 vim
@@ -306,7 +301,7 @@ watchgnupg
 wc
 weechat                     weechat
 whatis
-whereis
+whereis                     util-linux
 which
 who
 whoami
