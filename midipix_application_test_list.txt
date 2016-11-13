@@ -2,7 +2,7 @@ name:                       package:
 
 [                           coreutils
 addr2line                   binutils
-ag                          
+ag                          the_silver_searcher
 ar                          binutils
 as                          binutils
 awk                         gawk
@@ -34,11 +34,9 @@ colcrt                      util-linux
 colrm                       util-linux
 column                      util-linux
 comm                        coreutils
-corelist
 cp                          coreutils
-cpan
-cpp
-crontab
+cpp                         gcc
+crontab                     cron
 csplit                      coreutils
 curl                        curl
 cut                         coreutils
@@ -51,17 +49,16 @@ diff                        diffutils
 diff3                       diffutils
 dir                         coreutils
 dircolors                   coreutils
-dirmngr
-dirmngr-client
+dirmngr                     gnupg
+dirmngr-client              gnupg
 dirname                     coreutils
 dlltool                     binutils
 dllwrap                     binutils
 dos2unix                    dos2unix
 du                          coreutils
-dumpsexp
-echo
-ed
-egrep
+dumpsexp                    libgcrypt
+echo                        coreutils
+ed                          ed
 elfedit                     binutils
 env                         coreutils
 expand                      coreutils
@@ -72,21 +69,21 @@ file                        file
 find                        findutils
 findmnt                     util-linux
 flock                       util-linux
-fmt
-fold
-free
+fmt                         coreutils
+fold                        coreutils
+free                        procps_ng
 funzip                      infounzip
 g++                         gcc
 gapplication                glib
 gcc                         gcc
-gcov
-gdbm_dump
-gdbm_load
-gdbmtool
-gdbus
-gdbus-codegen
-getopt
-gio-querymodules
+gcov                        gcc
+gdbm_dump                   gdbm
+gdbm_load                   gdbm
+gdbmtool                    gdbm
+gdbus                       glib
+gdbus-codegen               glib
+getopt                      util-linux
+gio-querymodules            glib
 git                         git
 git-cvsserver               git
 gitk                        git
@@ -110,47 +107,47 @@ gpgscm                      gnupg
 gpgsm                       gnupg
 gpgtar                      gnupg
 gpgv2                       gnupg
-gprof
-grep
-gresource
-groups
-gsettings
-gtester
+gprof                       binutils
+grep                        grep
+gresource                   glib
+groups                      coreutils
+gsettings                   glib
+gtester                     glib
 gunzip                      gzip
 gzip                        gzip
 head                        coreutils
 hexcurse                    hexcurse
 hexdump                     util-linux
-hmac256                     
-hostid
+hmac256                     libgcrypt
+hostid                      coreutils
 htop                        htop
-id                          
-infocmp
-install
-ionice
-ipcmk
-ipcrm
-ipcs
+id                          coreutils
+infocmp                     ncurses
+install                     coreutils
+ionice                      util-linux
+ipcmk						util-linux
+ipcrm						util-linux
+ipcs						util-linux
 irssi                       irssi
-isosize
-john
-join
-kbxutil
+isosize                     util-linux
+john                        john
+join                        coreutils
+kbxutil                     gnupg
 kill                        util-linux
 last                        util-linux
-ld
-less
-lessecho
-lesskey
-lexgrog
-link
+ld                          binutils
+less                        less
+lessecho					
+lesskey						
+lexgrog                     
+link                        coreutils
 ln                          coreutils
-locate
-logger
-logname
-look
+locate                      findutils
+logger                      util-linux
+logname                     coreutils
+look                        util-linux
 ls                          coreutils
-lslogins
+lslogins                    util-linux
 lua                         lua
 lynx                        lynx
 lzmadec                     xz
@@ -158,20 +155,20 @@ lzmainfo                    xz
 make                        gmake
 man                         
 mandb                       man_db
-manpath
-mc
+manpath						
+mc                          mc
 mcookie                     util-linux
-md5sum
-mesg
-mkdir
-mkfifo
-mknod
-mkpasswd
+md5sum                      coreutils
+mesg                        util-linux
+mkdir                       coreutils
+mkfifo                      coreutils
+mknod                       coreutils
+mkpasswd                    
 mksh                        mksh
-mktemp
+mktemp                      coreutils
 more                        util-linux
 mountpoint                  util-linux
-mpicalc
+mpicalc                     
 mv                          coreutils
 namei                       util-linux
 nano                        nano
@@ -184,38 +181,36 @@ numfmt                      coreutils
 objcopy                     binutils
 objdump                     binutils
 od                          coreutils
-oldfind
+oldfind                     findutils
 openssl                     libressl
 pacman                      pacman
 paste                       coreutils
 patch                       patch
-pathchk
+pathchk                     coreutils
 perk                        perk
 perl                        perl
-pg
-pgrep
-pidof
+pg                          util-linux
+pgrep                       procps_ng
+pidof                       procps_ng
 pinky                       coreutils
-pkgconf
-pkill
-pmap
-pr
-printenv
+pkgconf                     pkgconf
+pkill                       procps_ng
+pmap                        procps_ng
+pr                          coreutils
+printenv                    coreutils
 printf                      coreutils
-prove
-ps
-pstruct
-ptx
+ps                          procps_ng
+ptx                         coreutils
 ptycon                      ptycon
 pwd                         coreutils
 python3                     python3
 ranlib                      gcc
-readelf
+readelf                     binutils
 readlink                    coreutils
 realpath                    coreutils
-rename
-renice
-rev
+rename                      util-linux
+renice                      util-linux
+rev                         util-linux
 rm                          coreutils
 rmdir                       coreutils
 rsync                       rsync
@@ -224,7 +219,7 @@ scp                         openssh
 sdiff                       diffutils
 sed                         sed
 seq                         coreutils
-setid
+setsid                      util-linux
 sftp                        openssh
 sha1sum                     coreutils
 sha224sum                   coreutils
@@ -233,8 +228,8 @@ sha384sum                   coreutils
 sha512sum                   coreutils
 shred                       coreutils
 shuf                        coreutils
-size                        
-slabtop                     
+size                        binutils
+slabtop                     procps_ng
 sleep                       coreutils
 slibtool                    slibtool
 sort                        coreutils
@@ -250,10 +245,10 @@ strings                     binutils
 strip                       binutils
 stty                        coreutils
 sum                         coreutils
-sxpm                        
+sxpm                        X11(?)
 sync                        coreutils
-tabs                        
-tac                         
+tabs                        ncurses
+tac                         coreutils
 tail                        coreutils
 tailf                       util-linux
 tar                         tar
@@ -264,16 +259,16 @@ telnet                      inetutils
 test                        coreutils
 tic                         ncurses
 timeout                     coreutils
-tload
-tmux
-toe
+tload                       procps_ng
+tmux                        tmux
+toe                         ncurses
 top                         procps_ng
 touch                       coreutils
 tput                        ncurses
 tr                          coreutils
 true                        coreutils
 truncate                    coreutils
-tset                        
+tset                        ncurses
 tsort                       coreutils
 tty                         coreutils
 ul                          util-linux
@@ -294,24 +289,23 @@ vdir                        coreutils
 vercmp                      pacman
 vim                         vim
 vmstat                      procps_ng
-w
-watch
-watchgnupg
+w                           procps_ng
+watch                       procps_ng
+watchgnupg                  gnupg
 wc                          coreutils
 weechat                     weechat
-whatis
+whatis                      whatis
 whereis                     util-linux
-which
-who
+which                       which
+who                         coreutils
 whoami                      coreutils
-whois
-windmc
-windres
+whois                       
+windmc						
+windres						
 xargs                       findutils
 xeyes                       X11
-xsubpp
-xwd
-xxd
+xwd							
+xxd							
 xz                          xz
 xzdec                       xz
 yes                         coreutils
