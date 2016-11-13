@@ -2,31 +2,31 @@ name:                       package:
 
 [                           coreutils
 addr2line                   binutils
-ag                          the_silver_searcher
+ag                          the_silver_searcher     Needs pthread / clone(2)
 ar                          binutils
 as                          binutils
-awk                         gawk
-base64                      coreutils
-basename                    coreutils
+awk                         gawk                    make check tests fail due to pthread
+base64                      coreutils               OK
+basename                    coreutils               OK
 bash                        bash
 bsdcpio                     libarchive
 bsdtar                      libarchive
 bunzip2                     bzip2
 bzcat                       bzip2
-bzip2                       bzip2
+bzip2                       bzip2                   
 bzip2recover                bzip2
 c++                         gcc
 c++filt                     binutils
-cal                         util-linux
+cal                         util-linux              OK
 cat                         coreutils
-catman                      man_db
+catman                      man_db                  Needs pthread / clone(2)
 chcon                       coreutils
 chgrp                       coreutils
 chmod                       coreutils
 chown                       coreutils
 chroot                      coreutils
 chrt                        util-linux
-cksum                       coreutils
+cksum                       coreutils               OK
 clear                       ncurses
 cmp                         diffutils
 col                         util-linux
@@ -49,7 +49,7 @@ diff                        diffutils
 diff3                       diffutils
 dir                         coreutils
 dircolors                   coreutils
-dirmngr                     gnupg
+dirmngr                     gnupg                   Needs pthread / clone(2)
 dirmngr-client              gnupg
 dirname                     coreutils
 dlltool                     binutils
@@ -66,12 +66,12 @@ expr                        coreutils
 factor                      coreutils
 false                       coreutils
 file                        file
-find                        findutils
+find                        findutils               Needs pthread / clone(2)
 findmnt                     util-linux
 flock                       util-linux
 fmt                         coreutils
 fold                        coreutils
-free                        procps_ng
+free                        procps_ng               Needs /proc
 funzip                      infounzip
 g++                         gcc
 gapplication                glib
@@ -84,13 +84,13 @@ gdbus                       glib
 gdbus-codegen               glib
 getopt                      util-linux
 gio-querymodules            glib
-git                         git
+git                         git                     Needs pthread / clone(2)
 git-cvsserver               git
 gitk                        git
-git-recieve-pack            git
-git-shell                   git
-git-upload-archive          git
-git-upload-pack             git
+git-recieve-pack            git                     Needs pthread / clone(2)
+git-shell                   git                     Needs pthread / clone(2)
+git-upload-archive          git                     Needs pthread / clone(2)
+git-upload-pack             git                     Needs pthread / clone(2)
 glib-compile-resources      glib
 glib-compile-schemas        glib
 glib-genmarshal             glib
@@ -98,7 +98,7 @@ glib-gettextize             glib
 glib-mkenums                glib
 gobject-query               glib
 gpg2                        gnupg
-gpg-agent                   gnupg
+gpg-agent                   gnupg                   Needs pthread / clone(2)
 gpgconf                     gnupg
 gpg-connect-agent           gnupg
 gpg-error                   gnupg
@@ -125,9 +125,9 @@ id                          coreutils
 infocmp                     ncurses
 install                     coreutils
 ionice                      util-linux
-ipcmk						util-linux
-ipcrm						util-linux
-ipcs						util-linux
+ipcmk                       util-linux
+ipcrm                       util-linux
+ipcs                        util-linux
 irssi                       irssi
 isosize                     util-linux
 john                        john
@@ -137,12 +137,12 @@ kill                        util-linux
 last                        util-linux
 ld                          binutils
 less                        less
-lessecho					
-lesskey						
+lessecho                    
+lesskey                     
 lexgrog                     
 link                        coreutils
 ln                          coreutils
-locate                      findutils
+locate                      findutils               Needs pthread / clone(2)
 logger                      util-linux
 logname                     coreutils
 look                        util-linux
@@ -153,9 +153,9 @@ lynx                        lynx
 lzmadec                     xz
 lzmainfo                    xz
 make                        gmake
-man                         
-mandb                       man_db
-manpath						
+man                                                 Needs pthread / clone(2)
+mandb                       man_db                  Needs pthread / clone(2)
+manpath                                             Needs pthread / clone(2)
 mc                          mc
 mcookie                     util-linux
 md5sum                      coreutils
@@ -181,7 +181,7 @@ numfmt                      coreutils
 objcopy                     binutils
 objdump                     binutils
 od                          coreutils
-oldfind                     findutils
+oldfind                     findutils               Needs pthread / clone(2)
 openssl                     libressl
 pacman                      pacman
 paste                       coreutils
@@ -199,11 +199,11 @@ pmap                        procps_ng
 pr                          coreutils
 printenv                    coreutils
 printf                      coreutils
-ps                          procps_ng
+ps                          procps_ng               Needs /proc
 ptx                         coreutils
 ptycon                      ptycon
-pwd                         coreutils
-python3                     python3
+pwd                         coreutils               OK
+python3                     python3                 Needs pthread / clone(2)
 ranlib                      gcc
 readelf                     binutils
 readlink                    coreutils
@@ -279,17 +279,17 @@ unix2dos                    dos2unix
 unlink                      coreutils
 unzip                       infounzip
 unzipsfx                    infounzip
-urxvt                       urxvt
-urxvtc                      urxvt
-urxvtd                      urxvt
+urxvt                       urxvt                   Needs pthread / clone(2)
+urxvtc                      urxvt                   Needs pthread / clone(2)
+urxvtd                      urxvt                   Needs pthread / clone(2)
 users                       coreutils
 utmpdump                    util-linux
 uuidgen                     util-linux
 vdir                        coreutils
 vercmp                      pacman
 vim                         vim
-vmstat                      procps_ng
-w                           procps_ng
+vmstat                      procps_ng               Needs /proc
+w                           procps_ng               Needs /proc
 watch                       procps_ng
 watchgnupg                  gnupg
 wc                          coreutils
@@ -300,15 +300,15 @@ which                       which
 who                         coreutils
 whoami                      coreutils
 whois                       
-windmc						
-windres						
+windmc                      
+windres                     
 xargs                       findutils
 xeyes                       X11
-xwd							
-xxd							
-xz                          xz
+xwd                         
+xxd                         
+xz                          xz                      pthread / clone(2)
 xzdec                       xz
-yes                         coreutils
+yes                         coreutils               OK
 zcat                        gzip
 zip                         infozip
 zipcloak                    infozip
@@ -316,3 +316,4 @@ zipdetails                  infozip
 zipnote                     infozip
 zipsplit                    infozip
 zsh                         zsh
+7za                         p7zip                   Needs pthread / clone(2)
