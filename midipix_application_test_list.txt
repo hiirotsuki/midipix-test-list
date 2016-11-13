@@ -1,5 +1,6 @@
 name:                       package:
-[                           
+
+[                           coreutils
 addr2line                   binutils
 ag                          
 ar                          binutils
@@ -120,7 +121,7 @@ gzip                        gzip
 head                        coreutils
 hexcurse                    hexcurse
 hexdump                     util-linux
-hmac256
+hmac256                     
 hostid
 htop                        htop
 id                          
@@ -159,164 +160,162 @@ man
 mandb                       man_db
 manpath
 mc
-mcookie
+mcookie                     util-linux
 md5sum
 mesg
 mkdir
 mkfifo
 mknod
 mkpasswd
-mksh
+mksh                        mksh
 mktemp
-more
-mountpoint
+more                        util-linux
+mountpoint                  util-linux
 mpicalc
-mv
-namei
-nano                        
+mv                          coreutils
+namei                       util-linux
+nano                        nano
 nc                          netcat
-nice
-nl
-nm
-nohup
-numfmt
-objcopy
-objdump
-od
+nice                        coreutils
+nl                          coreutils
+nm                          binutils
+nohup                       coreutils
+numfmt                      coreutils
+objcopy                     binutils
+objdump                     binutils
+od                          coreutils
 oldfind
 openssl                     libressl
-pacman
-paste
-patch
+pacman                      pacman
+paste                       coreutils
+patch                       patch
 pathchk
-perk
+perk                        perk
 perl                        perl
 pg
 pgrep
 pidof
-pinky
+pinky                       coreutils
 pkgconf
 pkill
 pmap
 pr
 printenv
-printf
+printf                      coreutils
 prove
 ps
 pstruct
 ptx
-ptycon
-pwd
-python3
-ranlib
+ptycon                      ptycon
+pwd                         coreutils
+python3                     python3
+ranlib                      gcc
 readelf
-readlink
-realpath
+readlink                    coreutils
+realpath                    coreutils
 rename
 renice
 rev
-rm
-rmdir
-rsync
-runcon
-scp
-sdiff
-sed
-seq
+rm                          coreutils
+rmdir                       coreutils
+rsync                       rsync
+runcon                      coreutils
+scp                         openssh
+sdiff                       diffutils
+sed                         sed
+seq                         coreutils
 setid
-sftp
-sha1sum
-sha224sum
-sha256sum
-sha384sum
-sha512sum
-shasum
-shred
-shuf
-size
-slabtop
-sleep
-slibtool
-sort
-spalin
-split
+sftp                        openssh
+sha1sum                     coreutils
+sha224sum                   coreutils
+sha256sum                   coreutils
+sha384sum                   coreutils
+sha512sum                   coreutils
+shred                       coreutils
+shuf                        coreutils
+size                        
+slabtop                     
+sleep                       coreutils
+slibtool                    slibtool
+sort                        coreutils
+split                       coreutils
 ssh                         openssh
 ssh-add                     openssh
 ssh-agent                   openssh
 ssh-keygen                  openssh
 ssh-keyscan                 openssh
-stat
-stdbuf
-strings
-strip
-stty
-sum
-sxpm
-sync
-tabs
-tac
-tail
-tailf
-tar
-taskset
-tcsh
-tee
-telnet
-test
-tic
-timeout
+stat                        coreutils
+stdbuf                      coreutils
+strings                     binutils
+strip                       binutils
+stty                        coreutils
+sum                         coreutils
+sxpm                        
+sync                        coreutils
+tabs                        
+tac                         
+tail                        coreutils
+tailf                       util-linux
+tar                         tar
+taskset                     util-linux
+tcsh                        tcsh
+tee                         coreutils
+telnet                      inetutils
+test                        coreutils
+tic                         ncurses
+timeout                     coreutils
 tload
 tmux
 toe
-top
-touch
-tput
-tr
-true
-truncate
-tset
-tsort
-tty
-ul
-uname
-unexpand
-uniq
-unix2dos
-unlink
+top                         procps_ng
+touch                       coreutils
+tput                        ncurses
+tr                          coreutils
+true                        coreutils
+truncate                    coreutils
+tset                        
+tsort                       coreutils
+tty                         coreutils
+ul                          util-linux
+uname                       coreutils
+unexpand                    coreutils
+uniq                        coreutils
+unix2dos                    dos2unix
+unlink                      coreutils
 unzip                       infounzip
 unzipsfx                    infounzip
 urxvt                       urxvt
 urxvtc                      urxvt
 urxvtd                      urxvt
-users
-utmpdump
+users                       coreutils
+utmpdump                    util-linux
 uuidgen                     util-linux
-vdir
-vercmp
-vim
-vmstat
+vdir                        coreutils
+vercmp                      pacman
+vim                         vim
+vmstat                      procps_ng
 w
 watch
 watchgnupg
-wc
+wc                          coreutils
 weechat                     weechat
 whatis
 whereis                     util-linux
 which
 who
-whoami
+whoami                      coreutils
 whois
 windmc
 windres
-xargs
-xeyes
+xargs                       findutils
+xeyes                       X11
 xsubpp
 xwd
 xxd
-xz
-xzdec
-yes
-zcat
+xz                          xz
+xzdec                       xz
+yes                         coreutils
+zcat                        gzip
 zip                         infozip
 zipcloak                    infozip
 zipdetails                  infozip
